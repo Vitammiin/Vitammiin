@@ -60,3 +60,5 @@ And no "done" without proof — a test run, a `git status`, a screenshot or a li
 <sub><b>Open to collaborations on applied-AI products, agent infrastructure and fintech.</b></sub><br/>
 <sub><a href="mailto:youareaviss@gmail.com">youareaviss@gmail.com</a> &nbsp;·&nbsp; <a href="https://vorcl.net">vorcl.net</a></sub>
 </div>
+
+<!-- profile -->
