@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="860" alt="Avis — AI systems engineer. Founder of VORCL, Awallet, PULSE and AION." />
+<img src="./assets/hero.svg" width="860" alt="@Vitammiin — profile scan: founder and AI systems engineer" />
 
 <br/><br/>
 
@@ -14,15 +14,11 @@
 
 <br/><br/>
 
-<img src="./assets/highlights.svg" width="860" alt="4 products shipped · 5.2K+ contributions in the last year · 20+ sub-agents on npm" />
-
-<br/><br/>
-
 <img src="./assets/products.svg" width="860" alt="Products: Awallet, PULSE, VORCL, AION" />
 
 <br/><br/>
 
-<img src="./assets/stack.svg" width="860" alt="Stack: AI and agents, web, mobile, data and infrastructure" />
+<img src="./assets/stack.svg" width="860" alt="Stack: AI agents, web, mobile, data and infra" />
 
 </div>
 
@@ -60,5 +56,3 @@ And no "done" without proof — a test run, a `git status`, a screenshot or a li
 <sub><b>Open to collaborations on applied-AI products, agent infrastructure and fintech.</b></sub><br/>
 <sub><a href="mailto:youareaviss@gmail.com">youareaviss@gmail.com</a> &nbsp;·&nbsp; <a href="https://vorcl.net">vorcl.net</a></sub>
 </div>
-
-<!-- profile -->
