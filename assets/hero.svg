@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="280" viewBox="0 0 860 280" fill="none" role="img" aria-label="Avis — AI systems engineer, founder of VORCL, Awallet, PULSE and AION">
+  <title>Avis — AI systems engineer, founder of VORCL, Awallet, PULSE and AION</title>
+  <defs>
+    <clipPath id="h-clip"><rect x="1" y="1" width="858" height="278" rx="26"/></clipPath>
+    <linearGradient id="h-hair" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2DE8DC" stop-opacity="0.34"/>
+      <stop offset="45%" stop-color="#FFFFFF" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#2DE8DC" stop-opacity="0.07"/>
+    </linearGradient>
+    <linearGradient id="h-neon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7FF7EE"/>
+      <stop offset="100%" stop-color="#00C2B8"/>
+    </linearGradient>
+    <linearGradient id="h-title" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#C9CDD2"/>
+    </linearGradient>
+    <linearGradient id="h-rail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2DE8DC" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#2DE8DC" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#2DE8DC" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="h-halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2DE8DC" stop-opacity="0.30"/>
+      <stop offset="60%" stop-color="#00C2B8" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#00C2B8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="h-glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="h-soft" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <radialGradient id="h-orb" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#7FF7EE" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#00C2B8" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#00C2B8" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .t { font-family: 'SF Pro Display','SF Pro Text',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Inter,Arial,sans-serif; }
+      .k { font-family: ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace; }
+      @keyframes rise { from { opacity:0; transform: translateY(10px); } to { opacity:1; transform: translateY(0); } }
+      @keyframes breathe { 0%,100% { opacity:.55; } 50% { opacity:1; } }
+      @keyframes float { 0%,100% { transform: translate(0,0); } 50% { transform: translate(22px,-12px); } }
+      @keyframes float2 { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-18px,14px); } }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes scan { 0% { transform: translateX(-320px); } 100% { transform: translateX(900px); } }
+      .a1 { animation: rise .7s ease-out; }
+      .a2 { animation: rise .9s ease-out; }
+      .a3 { animation: rise 1.1s ease-out; }
+      .a4 { animation: rise 1.3s ease-out; }
+      .a5 { animation: rise 1.5s ease-out; }
+      .pulse { animation: breathe 3s ease-in-out infinite; }
+      .fl { animation: float 20s ease-in-out infinite; }
+      .fl2 { animation: float2 24s ease-in-out infinite; }
+      .scan { animation: scan 9s cubic-bezier(.4,0,.2,1) infinite; }
+      @media (prefers-reduced-motion: reduce) { .a1,.a2,.a3,.a4,.a5,.pulse,.fl,.fl2,.scan { animation: none; } }
+    </style>
+  </defs>
+  <g clip-path="url(#h-clip)">
+    <rect x="1" y="1" width="858" height="278" rx="26" fill="#000000"/>
+    <ellipse class="fl" cx="140" cy="250" rx="380" ry="220" fill="url(#h-halo)"/>
+    <ellipse class="fl2" cx="720" cy="40" rx="320" ry="200" fill="url(#h-halo)" opacity="0.7"/>
+    <rect class="scan" x="0" y="0" width="320" height="280" fill="url(#h-rail)" opacity="0.045"/>
+
+    <!-- monogram -->
+    <g class="a1">
+      <circle cx="726" cy="140" r="86" fill="url(#h-orb)" filter="url(#h-soft)" opacity="0.85"/>
+      <circle class="pulse" cx="726" cy="140" r="58" fill="none" stroke="#2DE8DC" stroke-opacity="0.55" stroke-width="1" filter="url(#h-glow)"/>
+      <circle cx="726" cy="140" r="44" fill="#05070A" stroke="#FFFFFF" stroke-opacity="0.10"/>
+      <text class="t" x="726" y="155" text-anchor="middle" font-size="38" font-weight="600" fill="url(#h-neon)" letter-spacing="0.5">A</text>
+    </g>
+
+    <!-- copy -->
+    <g class="a1">
+      <circle class="pulse" cx="44" cy="52" r="3.5" fill="#2DE8DC" filter="url(#h-glow)"/>
+      <text class="t" x="58" y="56" font-size="10.5" font-weight="600" fill="#2DE8DC" letter-spacing="3.4">AI SYSTEMS · APPLIED AI · PRODUCTS</text>
+    </g>
+    <text class="t a2" x="40" y="130" font-size="60" font-weight="600" fill="url(#h-title)" letter-spacing="-1.6">Avis</text>
+    <text class="t a3" x="40" y="166" font-size="17" font-weight="400" fill="#A1A1A6" letter-spacing="-0.2">I design AI systems — and ship the products they run.</text>
+    <text class="t a4" x="40" y="196" font-size="13.5" font-weight="400" fill="#8E8E93" letter-spacing="-0.1">Founder &amp; engineer<tspan fill="#48484A">   ·   </tspan>VORCL<tspan fill="#48484A">   ·   </tspan>Awallet<tspan fill="#48484A">   ·   </tspan>PULSE<tspan fill="#48484A">   ·   </tspan>AION</text>
+
+    <line x1="40" y1="222" x2="560" y2="222" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <text class="k a5" x="40" y="250" font-size="11.5" fill="#A1A1A6" opacity="0.9">TypeScript<tspan fill="#48484A">  ·  </tspan>React<tspan fill="#48484A">  ·  </tspan>Node<tspan fill="#48484A">  ·  </tspan>Expo<tspan fill="#48484A">  ·  </tspan>Python<tspan fill="#48484A">  ·  </tspan>MCP</text>
+    <rect x="1" y="1" width="858" height="1.2" fill="url(#h-rail)" opacity="0.75"/>
+  </g>
+  <rect x="1" y="1" width="858" height="278" rx="26" fill="none" stroke="url(#h-hair)" stroke-width="1.1"/>
+</svg>
