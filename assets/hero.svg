@@ -12,6 +12,10 @@
       <stop offset="50%" stop-color="#7EE787" stop-opacity="0.55"/>
       <stop offset="100%" stop-color="#7EE787" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="h-deck" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
     <radialGradient id="h-halo" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#3FB950" stop-opacity="0.16"/>
       <stop offset="100%" stop-color="#3FB950" stop-opacity="0"/>
@@ -24,72 +28,69 @@
       .m { font-family: ui-monospace,'SF Mono','JetBrains Mono','Menlo',Consolas,'Liberation Mono',monospace; }
       @keyframes blink { 0%,45% { opacity:1; } 55%,100% { opacity:0; } }
       @keyframes breathe { 0%,100% { opacity:.45; } 50% { opacity:1; } }
-      @keyframes sweep { 0% { transform: translateY(-40px); } 100% { transform: translateY(402px); } }
+      @keyframes sweep { 0% { transform: translateY(-30px); } 100% { transform: translateY(362px); } }
       @keyframes fade { from { opacity:0; } to { opacity:1; } }
       .cursor { animation: blink 1.1s steps(1) infinite; }
       .live { animation: breathe 2.4s ease-in-out infinite; }
-      .scan { animation: sweep 7s linear infinite; }
+      .scan { animation: sweep 6s linear infinite; }
       .in { animation: fade .9s ease-out; }
       @media (prefers-reduced-motion: reduce) { .cursor,.live,.scan,.in { animation: none; } }
     </style>
   </defs>  <g clip-path="url(#h-clip)">
     <rect x="1" y="1" width="858" height="360" rx="12" fill="#010409"/>
-    <ellipse cx="740" cy="322" rx="300" ry="180" fill="url(#h-halo)"/>
     <rect x="1" y="1" width="858" height="34" fill="#0D1117"/>
     <line x1="1" y1="35" x2="859" y2="35" stroke="#30363D"/>
     <circle cx="22" cy="18" r="5" fill="#FF5F57"/>
     <circle cx="40" cy="18" r="5" fill="#FEBC2E"/>
     <circle cx="58" cy="18" r="5" fill="#28C840"/>
     <text class="m" x="82" y="22" font-size="11.5" fill="#6E7681">vitammiin@github ~ $ ./profile-scan --live<tspan class="cursor" fill="#7EE787">▊</tspan></text>
-    <circle class="live" cx="790" cy="18" r="3.5" fill="#3FB950" filter="url(#h-glow)"/>
-    <text class="m" x="802" y="22" font-size="10" fill="#3FB950" letter-spacing="1.8">LIVE</text>
+    <circle class="live" cx="782" cy="18" r="3.5" fill="#3FB950" filter="url(#h-glow)"/>
+    <text class="m" x="794" y="22" font-size="10" fill="#3FB950" letter-spacing="1.8">LIVE</text>
     <text class="m" x="18" y="60" font-size="10" fill="#6E7681" letter-spacing="2.6">PROFILE SCAN</text>
 
     <g class="in">
       <rect x="18" y="76" width="372" height="268" rx="9" fill="#0D1117" stroke="#30363D"/>
-      <text class="m" x="32" y="96" font-size="9" fill="#6E7681" letter-spacing="2.2">VISUAL.MAP</text>
-      <text class="m" x="32" y="110.0" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">:::---====-----===================--------::----------------</text>
-      <text class="m" x="32" y="120.4" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">---===+++++===+*****+++++++++++====-------------============</text>
-      <text class="m" x="32" y="130.8" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">==+++*++=*##**********###**+++++++==========================</text>
-      <text class="m" x="32" y="141.2" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">***#*+-::=+*+++****+**####*****+++++++++++=+++++++++++=+++++</text>
-      <text class="m" x="32" y="151.6" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">%###**++=+*****###*++*#####********+++*****+=:::-***********</text>
-      <text class="m" x="32" y="162.0" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">+*%@@@###%@@%%@@@@@@@@@@@@**@%%#####*#######+:...:=%%%######</text>
-      <text class="m" x="32" y="172.4" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">=*@@@@###@@@@%@@@@@@@@@@@@##@@@%**##%%%%%%%+=:::-:-@@%%%%%%%</text>
-      <text class="m" x="32" y="182.8" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">#*+#%@@@@@@@@@%***#%##%@@@%%@@@%**+++*#%@@@=:.--.+%@@@@@@@@@</text>
-      <text class="m" x="32" y="193.2" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">*+=*%@@@@@@@@@+..-==++++*@%%@%%%@@%#*=:..::--+##*@@@@@@@@@@@</text>
-      <text class="m" x="32" y="203.6" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">*++**########*=+*******++##**+++++####-   .*#%@@@@@@@%@%%%%@</text>
-      <text class="m" x="32" y="214.0" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">-==**+++++++==+%@@%###%####**=--=+#*++-  .:===*#%@@@%%%%%*+=</text>
-      <text class="m" x="32" y="224.4" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">*+====+++++*#*=--+++:+@##***++=:+#%##%+. ...:-=+*@@@@@@*+-:.</text>
-      <text class="m" x="32" y="234.8" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">***   ::----**.  -=+.-*%%%*+:=+###%%%@#=:....=@@#%@@%#-.... </text>
-      <text class="m" x="32" y="245.2" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">--=:. ..:========+**...------+*%%%%%@@@@#=...=*##@@%-::.  .:</text>
-      <text class="m" x="32" y="255.6" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">+-....:-=====++#%%@@=:.   ..   :=+*%%++*#+:..-==*@@+:.:::-==</text>
-      <text class="m" x="32" y="266.0" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">.    .::---..:-::--=-==-:         +@@.  -==:::-=*%#+:.:+*+*#</text>
-      <text class="m" x="32" y="276.4" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">      .:-:.   -=======-+-        .+%%*: ..::.  .+++=. -**-=+</text>
-      <text class="m" x="32" y="286.8" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">              .::------=-.        .........:.   .+=.  -+*:::</text>
-      <text class="m" x="32" y="297.2" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">               ::::::::-=#--.  ...           . .--:    .: ..</text>
-      <text class="m" x="32" y="307.6" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">               .::.....-=##+.   :-              .::...    -+</text>
-      <text class="m" x="32" y="318.0" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">               .:.....:-=%%*.-=+**:..    .:-=+++*+++++...++=</text>
-      <text class="m" x="32" y="328.4" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">      ....  .. ...:-====+*-: :=#==-+***+=--==******+++=---:.</text>
-      <text class="m" x="32" y="338.8" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">     :===-:  ..::-=*+=-.......:.--===+*#%%#########*==+**:  </text>
-      <text class="m" x="32" y="349.2" font-size="9.5" fill="#3FB950" opacity="0.78" xml:space="preserve">       :*=-   :.  .:   :=#+- .:-::...:-+@@%#*******+++****+=</text>
+      <text class="m" x="32" y="96" font-size="9" fill="#6E7681" letter-spacing="2.2">WORKSTATION</text>
+      <ellipse cx="204.0" cy="288" rx="215" ry="70" fill="url(#h-halo)"/>
+      <rect x="51" y="116" width="306" height="162" rx="8" fill="#010409" stroke="#3FB950" stroke-opacity="0.5"/>
+      <rect x="52" y="117" width="304" height="23" rx="7" fill="#0D1117"/>
+      <line x1="52" y1="140" x2="356" y2="140" stroke="#3FB950" stroke-opacity="0.25"/>
+      <circle cx="66" cy="128" r="3" fill="#FF5F57" opacity="0.9"/>
+      <circle cx="78" cy="128" r="3" fill="#FEBC2E" opacity="0.9"/>
+      <circle cx="90" cy="128" r="3" fill="#28C840" opacity="0.9"/>
+      <text class="m" x="343" y="132" text-anchor="end" font-size="8.5" fill="#6E7681">~/vorcl</text>
+      <text class="m" x="67" y="160" font-size="9.5" font-weight="500" fill="#7EE787" xml:space="preserve">$ claude --agents 4<tspan class="cursor" fill="#7EE787">_</tspan></text>
+      <text class="m" x="67" y="173" font-size="9.5" font-weight="400" fill="#6E7681" xml:space="preserve">&gt; orchestrating 4 sub-agents</text>
+      <text class="m" x="67" y="187" font-size="9.5" font-weight="400" fill="#6E7681" xml:space="preserve"></text>
+      <text class="m" x="67" y="200" font-size="9.5" font-weight="500" fill="#E6EDF3" xml:space="preserve">const ship = async (idea) =&gt; {</text>
+      <text class="m" x="67" y="214" font-size="9.5" font-weight="400" fill="#3FB950" xml:space="preserve">    const plan = await agents.plan(idea)</text>
+      <text class="m" x="67" y="227" font-size="9.5" font-weight="400" fill="#3FB950" xml:space="preserve">    await Promise.all(plan.map(run))</text>
+      <text class="m" x="67" y="240" font-size="9.5" font-weight="400" fill="#3FB950" xml:space="preserve">    return deploy(plan)</text>
+      <text class="m" x="67" y="254" font-size="9.5" font-weight="500" fill="#E6EDF3" xml:space="preserve">}</text>
+      <text class="m" x="67" y="267" font-size="9.5" font-weight="400" fill="#7EE787" xml:space="preserve">ok  4 products live | 0 regressions</text>
       
-      <rect class="scan" x="18" y="76" width="372" height="26" fill="url(#h-scan)" opacity="0.16"/>
+      <rect class="scan" x="52" y="141" width="304" height="18" fill="url(#h-scan)" opacity="0.13"/>
+      <path d="M43 280 H365 L387 299 Q390 303 384 303 H24 Q18 303 21 299 Z" fill="url(#h-deck)" stroke="#3FB950" stroke-opacity="0.42"/>
+      <rect x="160" y="286" width="88" height="9" rx="4" fill="#010409" stroke="#3FB950" stroke-opacity="0.28"/>
+      <line x1="54" y1="309" x2="354" y2="309" stroke="#3FB950" stroke-opacity="0.14" stroke-width="2"/>
+      <text class="m" x="204.0" y="326" text-anchor="middle" font-size="9" fill="#6E7681">$ shipping software since 2022</text>
     </g>
 
     <g class="in">
       <rect x="402" y="76" width="440" height="268" rx="9" fill="#0D1117" stroke="#30363D"/>
       <text class="m" x="420" y="96" font-size="9" fill="#6E7681" letter-spacing="2.2">SYSTEM.INFO</text>
       <text class="m" x="420" y="134" font-size="27" font-weight="600" fill="#7EE787" filter="url(#h-glow)" letter-spacing="-0.5">@Vitammiin</text>
-      <text class="m" x="420" y="156" font-size="12" fill="#8B949E">Avis — I design AI systems and ship</text>
-      <text class="m" x="420" y="172" font-size="12" fill="#8B949E">the products they run.</text>
+      <text class="m" x="420" y="156" font-size="12" fill="#8B949E">Avis — I design AI systems, build</text>
+      <text class="m" x="420" y="172" font-size="12" fill="#8B949E">software and ship products.</text>
       <line x1="420" y1="184" x2="824" y2="184" stroke="#30363D"/>
       <text class="m" x="420" y="198" font-size="11" fill="#6E7681">Role</text><text class="m" x="552" y="198" font-size="11" fill="#E6EDF3">Founder · AI systems engineer</text>
-      <text class="m" x="420" y="219" font-size="11" fill="#6E7681">Status</text><text class="m" x="552" y="219" font-size="11" fill="#E6EDF3">Building | Shipping | Applied AI</text>
-      <text class="m" x="420" y="240" font-size="11" fill="#6E7681">Languages</text><text class="m" x="552" y="240" font-size="11" fill="#E6EDF3">TypeScript · Python · JavaScript</text>
-      <text class="m" x="420" y="261" font-size="11" fill="#6E7681">Products</text><text class="m" x="552" y="261" font-size="11" fill="#7EE787">Awallet · PULSE · VORCL · AION</text>
-      <text class="m" x="420" y="282" font-size="11" fill="#6E7681">Repositories</text><text class="m" x="552" y="282" font-size="11" fill="#E6EDF3">33 public</text>
-      <text class="m" x="420" y="303" font-size="11" fill="#6E7681">Contributions</text><text class="m" x="552" y="303" font-size="11" fill="#E6EDF3">5,270 last year</text>
-      <text class="m" x="420" y="324" font-size="11" fill="#6E7681">Contact</text><text class="m" x="552" y="324" font-size="11" fill="#7EE787">vorcl.net</text>
+      <text class="m" x="420" y="217" font-size="11" fill="#6E7681">Services</text><text class="m" x="552" y="217" font-size="11" fill="#7EE787">custom software development</text>
+      <text class="m" x="420" y="236" font-size="11" fill="#6E7681">Building</text><text class="m" x="552" y="236" font-size="11" fill="#E6EDF3">web · mobile · backend · AI agents</text>
+      <text class="m" x="420" y="255" font-size="11" fill="#6E7681">Products</text><text class="m" x="552" y="255" font-size="11" fill="#7EE787">Awallet · PULSE · VORCL · AION</text>
+      <text class="m" x="420" y="274" font-size="11" fill="#6E7681">Languages</text><text class="m" x="552" y="274" font-size="11" fill="#E6EDF3">TypeScript · Python · JavaScript</text>
+      <text class="m" x="420" y="293" font-size="11" fill="#6E7681">Repositories</text><text class="m" x="552" y="293" font-size="11" fill="#E6EDF3">33 public</text>
+      <text class="m" x="420" y="312" font-size="11" fill="#6E7681">Contributions</text><text class="m" x="552" y="312" font-size="11" fill="#E6EDF3">5,270 last year</text>
+      <text class="m" x="420" y="331" font-size="11" fill="#6E7681">Contact</text><text class="m" x="552" y="331" font-size="11" fill="#7EE787">vorcl.net</text>
       
     </g>
   </g>

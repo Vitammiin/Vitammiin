@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="342" viewBox="0 0 860 342" fill="none" role="img" aria-label="Software development services: web, mobile, backends, AI integrations">
+  <title>Software development services: web, mobile, backends, AI integrations</title>
+  <defs>
+    <clipPath id="v-clip"><rect x="1" y="1" width="858" height="340" rx="12"/></clipPath>
+    <linearGradient id="v-edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7EE787" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#3FB950" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#238636" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="v-scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7EE787" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#7EE787" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7EE787" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="v-deck" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <radialGradient id="v-halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3FB950" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#3FB950" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="v-glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .m { font-family: ui-monospace,'SF Mono','JetBrains Mono','Menlo',Consolas,'Liberation Mono',monospace; }
+      @keyframes blink { 0%,45% { opacity:1; } 55%,100% { opacity:0; } }
+      @keyframes breathe { 0%,100% { opacity:.45; } 50% { opacity:1; } }
+      @keyframes sweep { 0% { transform: translateY(-30px); } 100% { transform: translateY(342px); } }
+      @keyframes fade { from { opacity:0; } to { opacity:1; } }
+      .cursor { animation: blink 1.1s steps(1) infinite; }
+      .live { animation: breathe 2.4s ease-in-out infinite; }
+      .scan { animation: sweep 6s linear infinite; }
+      .in { animation: fade .9s ease-out; }
+      @media (prefers-reduced-motion: reduce) { .cursor,.live,.scan,.in { animation: none; } }
+    </style>
+  </defs>  <g clip-path="url(#v-clip)">
+    <rect x="1" y="1" width="858" height="340" rx="12" fill="#010409"/>
+    <ellipse cx="780" cy="342" rx="300" ry="160" fill="url(#v-halo)"/>
+    <rect x="1" y="1" width="858" height="34" fill="#0D1117"/>
+    <line x1="1" y1="35" x2="859" y2="35" stroke="#30363D"/>
+    <circle cx="22" cy="18" r="5" fill="#FF5F57"/>
+    <circle cx="40" cy="18" r="5" fill="#FEBC2E"/>
+    <circle cx="58" cy="18" r="5" fill="#28C840"/>
+    <text class="m" x="82" y="22" font-size="11.5" fill="#6E7681">vitammiin@github ~ $ ./services --what-i-build<tspan class="cursor" fill="#7EE787">▊</tspan></text>
+    <circle class="live" cx="782" cy="18" r="3.5" fill="#3FB950" filter="url(#v-glow)"/>
+    <text class="m" x="794" y="22" font-size="10" fill="#3FB950" letter-spacing="1.8">OPEN</text>
+    <text class="m" x="18" y="60" font-size="10" fill="#6E7681" letter-spacing="2.6">SOFTWARE DEVELOPMENT</text>
+    <text class="m" x="840" y="60" text-anchor="end" font-size="10" fill="#6E7681">custom products, end to end</text>
+      <g class="in">
+        <rect x="18" y="76" width="404" height="116" rx="9" fill="#0D1117" stroke="#30363D"/>
+        <text class="m" x="38" y="108" font-size="12" fill="#3FB950">▸</text>
+        <text class="m" x="58" y="108" font-size="13.5" font-weight="600" fill="#E6EDF3">web platforms</text>
+        <text class="m" x="38" y="138" font-size="10.5" fill="#8B949E">Next.js apps, dashboards, admin panels,</text>
+        <text class="m" x="38" y="154" font-size="10.5" fill="#8B949E">multi-language marketing sites.</text>
+        <line x1="38" y1="168" x2="402" y2="168" stroke="#30363D"/>
+        <text class="m" x="38" y="182" font-size="9.5" fill="#6E7681">design → build → test → deploy → support</text>
+      </g>
+      <g class="in">
+        <rect x="438" y="76" width="404" height="116" rx="9" fill="#0D1117" stroke="#30363D"/>
+        <text class="m" x="458" y="108" font-size="12" fill="#3FB950">▸</text>
+        <text class="m" x="478" y="108" font-size="13.5" font-weight="600" fill="#E6EDF3">mobile apps</text>
+        <text class="m" x="458" y="138" font-size="10.5" fill="#8B949E">React Native + Expo, App Store and</text>
+        <text class="m" x="458" y="154" font-size="10.5" fill="#8B949E">Google Play releases, offline-first.</text>
+        <line x1="458" y1="168" x2="822" y2="168" stroke="#30363D"/>
+        <text class="m" x="458" y="182" font-size="9.5" fill="#6E7681">design → build → test → deploy → support</text>
+      </g>
+      <g class="in">
+        <rect x="18" y="208" width="404" height="116" rx="9" fill="#0D1117" stroke="#30363D"/>
+        <text class="m" x="38" y="240" font-size="12" fill="#3FB950">▸</text>
+        <text class="m" x="58" y="240" font-size="13.5" font-weight="600" fill="#E6EDF3">backends &amp; APIs</text>
+        <text class="m" x="38" y="270" font-size="10.5" fill="#8B949E">Node.js/Python services, PostgreSQL,</text>
+        <text class="m" x="38" y="286" font-size="10.5" fill="#8B949E">MongoDB, Redis, documented REST APIs.</text>
+        <line x1="38" y1="300" x2="402" y2="300" stroke="#30363D"/>
+        <text class="m" x="38" y="314" font-size="9.5" fill="#6E7681">design → build → test → deploy → support</text>
+      </g>
+      <g class="in">
+        <rect x="438" y="208" width="404" height="116" rx="9" fill="#0D1117" stroke="#30363D"/>
+        <text class="m" x="458" y="240" font-size="12" fill="#3FB950">▸</text>
+        <text class="m" x="478" y="240" font-size="13.5" font-weight="600" fill="#E6EDF3">AI integrations</text>
+        <text class="m" x="458" y="270" font-size="10.5" fill="#8B949E">agents, assistants, RAG, MCP tooling</text>
+        <text class="m" x="458" y="286" font-size="10.5" fill="#8B949E">and automation wired into your product.</text>
+        <line x1="458" y1="300" x2="822" y2="300" stroke="#30363D"/>
+        <text class="m" x="458" y="314" font-size="9.5" fill="#6E7681">design → build → test → deploy → support</text>
+      </g>
+  </g>
+  <rect x="1" y="1" width="858" height="340" rx="12" fill="none" stroke="url(#v-edge)" stroke-width="1.2"/>
+</svg>

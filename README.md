@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="860" alt="@Vitammiin — profile scan: founder and AI systems engineer" />
+<img src="./assets/hero.svg" width="860" alt="@Vitammiin — profile scan: founder, AI systems engineer, custom software development" />
 
 <br/><br/>
 
@@ -10,7 +10,6 @@
 <br/>
 <a href="https://www.aion.work/"><img src="./assets/btn-aion.svg" width="268" alt="AION — aion.work" /></a>
 <a href="https://www.npmjs.com/package/agent-vorcl-flow"><img src="./assets/btn-npm.svg" width="268" alt="agent-vorcl-flow on npm" /></a>
-<a href="mailto:youareaviss@gmail.com"><img src="./assets/btn-mail.svg" width="268" alt="Email" /></a>
 
 <br/><br/>
 
@@ -18,11 +17,29 @@
 
 <br/><br/>
 
-<img src="./assets/stack.svg" width="860" alt="Stack: AI agents, web, mobile, data and infra" />
+<img src="./assets/services.svg" width="860" alt="Software development: web platforms, mobile apps, backends and APIs, AI integrations" />
+
+<br/><br/>
+
+<img src="./assets/stack.svg" width="860" alt="Engineering stack: AI agents, LLM APIs, web, mobile, backend, data, infra, quality, automation" />
 
 </div>
 
 <br/>
+
+## Software development
+
+I build custom software end to end — from the first architecture call to a deployed, monitored
+product. Web platforms, mobile apps, backends and the AI layer on top of them; existing codebases
+audited, refactored and shipped as well as greenfield builds.
+
+| | |
+|---|---|
+| **Web platforms** | Next.js apps, dashboards, admin panels, multi-language marketing sites, SSR/ISR, design systems. |
+| **Mobile apps** | React Native + Expo, offline-first data, push, App Store and Google Play releases. |
+| **Backends & APIs** | Node.js and Python services, PostgreSQL / MongoDB / Redis, documented REST and WebSocket APIs. |
+| **AI integrations** | Agents, assistants, RAG, MCP tooling and automation wired into a real product, not a demo. |
+| **Quality & delivery** | Tests, CI/CD, Docker, monitoring — every change verified with real output before it ships. |
 
 ## Products
 
@@ -53,6 +70,6 @@ And no "done" without proof — a test run, a `git status`, a screenshot or a li
 
 <div align="center">
 <br/>
-<sub><b>Open to collaborations on applied-AI products, agent infrastructure and fintech.</b></sub><br/>
-<sub><a href="mailto:youareaviss@gmail.com">youareaviss@gmail.com</a> &nbsp;·&nbsp; <a href="https://vorcl.net">vorcl.net</a></sub>
+<sub><b>Open to collaborations and custom software projects — applied AI, agent infrastructure, fintech and mobile.</b></sub><br/>
+<sub><a href="https://vorcl.net">vorcl.net</a></sub>
 </div>
