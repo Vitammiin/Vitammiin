@@ -1,27 +1,27 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="860" alt="@Vitammiin — profile scan: founder, AI systems engineer, custom software development" />
+<img src="./assets/hero.svg?v=2" width="860" alt="@Vitammiin — profile scan: founder, AI systems engineer, custom software development" />
 
 <br/><br/>
 
-<a href="https://www.awallet.life/"><img src="./assets/btn-awallet.svg" width="268" alt="Awallet — awallet.life" /></a>
-<a href="https://www.mycom.fit/"><img src="./assets/btn-pulse.svg" width="268" alt="PULSE — mycom.fit" /></a>
-<a href="https://vorcl.net"><img src="./assets/btn-vorcl.svg" width="268" alt="VORCL — vorcl.net" /></a>
+<a href="https://www.awallet.life/"><img src="./assets/btn-awallet.svg?v=2" width="268" alt="Awallet — awallet.life" /></a>
+<a href="https://www.mycom.fit/"><img src="./assets/btn-pulse.svg?v=2" width="268" alt="PULSE — mycom.fit" /></a>
+<a href="https://vorcl.net"><img src="./assets/btn-vorcl.svg?v=2" width="268" alt="VORCL — vorcl.net" /></a>
 <br/>
-<a href="https://www.aion.work/"><img src="./assets/btn-aion.svg" width="268" alt="AION — aion.work" /></a>
-<a href="https://www.npmjs.com/package/agent-vorcl-flow"><img src="./assets/btn-npm.svg" width="268" alt="agent-vorcl-flow on npm" /></a>
+<a href="https://www.aion.work/"><img src="./assets/btn-aion.svg?v=2" width="268" alt="AION — aion.work" /></a>
+<a href="https://www.npmjs.com/package/agent-vorcl-flow"><img src="./assets/btn-npm.svg?v=2" width="268" alt="agent-vorcl-flow on npm" /></a>
 
 <br/><br/>
 
-<img src="./assets/products.svg" width="860" alt="Products: Awallet, PULSE, VORCL, AION" />
+<img src="./assets/products.svg?v=2" width="860" alt="Products: Awallet, PULSE, VORCL, AION" />
 
 <br/><br/>
 
-<img src="./assets/services.svg" width="860" alt="Software development: web platforms, mobile apps, backends and APIs, AI integrations" />
+<img src="./assets/services.svg?v=2" width="860" alt="Software development: web platforms, mobile apps, backends and APIs, AI integrations" />
 
 <br/><br/>
 
-<img src="./assets/stack.svg" width="860" alt="Engineering stack: AI agents, LLM APIs, web, mobile, backend, data, infra, quality, automation" />
+<img src="./assets/stack.svg?v=2" width="860" alt="Engineering stack: AI agents, LLM APIs, web, mobile, backend, data, infra, quality, automation" />
 
 </div>
 
