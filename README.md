@@ -47,7 +47,8 @@ audited, refactored and shipped as well as greenfield builds.
 |---|---|---|
 | **[Awallet](https://www.awallet.life/)** | A quiet AI personal-finance dashboard — wallets, budgets, savings goals, subscriptions, stocks, crypto and clear spending insights in one calm place. | `awallet.life` |
 | **[PULSE](https://www.mycom.fit/)** | A private fitness operating system that connects training, recovery, nutrition and body signals into one adaptive plan. | `mycom.fit` |
-| **[VORCL](https://vorcl.net)** | Applied-AI research and engineering — designing, training, integrating, testing and deploying production AI systems for real business processes. | `vorcl.net` |
+| **[NUJEXA](https://nujexa.ai
+)** | Applied-AI research and engineering — designing, training, integrating, testing and deploying production AI systems for real business processes. | `vorcl.net` |
 | **[AION](https://www.aion.work/)** | A personal AI companion built to unite every important area of your life in one place. | `aion.work` |
 
 ## Open source
