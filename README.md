@@ -12,7 +12,8 @@
 <a href="https://www.aion.work/"><img src="./assets/btn-aion.svg?v=2" width="268" alt="AION — aion.work" /></a>
 <a href="https://www.npmjs.com/package/agent-vorcl-flow"><img src="./assets/btn-npm.svg?v=2" width="268" alt="agent-vorcl-flow on npm" /></a>
 <br/>
-<sub><a href="https://nujexa.ai">NUJEXA AI — nujexa.ai</a> · <a href="https://nujexa.app">NUJEXA App — nujexa.app</a></sub>
+<a href="https://nujexa.ai/"><img src="./assets/btn-nujexa-ai.svg?v=1" width="268" alt="NUJEXA AI — nujexa.ai" /></a>
+<a href="https://nujexa.app/"><img src="./assets/btn-nujexa-app.svg?v=1" width="268" alt="NUJEXA App — nujexa.app" /></a>
 
 <br/><br/>
 
