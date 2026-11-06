@@ -1,19 +1,22 @@
 <div align="center">
 
-<img src="./assets/hero.svg?v=2" width="860" alt="@Vitammiin — profile scan: founder, AI systems engineer, custom software development" />
+<img src="./assets/hero.svg?v=3" width="860" alt="@Vitammiin — profile scan: founder, AI systems engineer, custom software development" />
 
 <br/><br/>
 
+<a href="https://nujexa.ai"><img src="./assets/btn-nujexa.svg?v=3" width="268" alt="NUJEXA — nujexa.ai" /></a>
 <a href="https://www.awallet.life/"><img src="./assets/btn-awallet.svg?v=2" width="268" alt="Awallet — awallet.life" /></a>
 <a href="https://www.mycom.fit/"><img src="./assets/btn-pulse.svg?v=2" width="268" alt="PULSE — mycom.fit" /></a>
-<a href="https://vorcl.net"><img src="./assets/btn-vorcl.svg?v=2" width="268" alt="VORCL — vorcl.net" /></a>
 <br/>
+<a href="https://vorcl.com"><img src="./assets/btn-vorcl.svg?v=3" width="268" alt="VORCL — vorcl.com" /></a>
 <a href="https://www.aion.work/"><img src="./assets/btn-aion.svg?v=2" width="268" alt="AION — aion.work" /></a>
 <a href="https://www.npmjs.com/package/agent-vorcl-flow"><img src="./assets/btn-npm.svg?v=2" width="268" alt="agent-vorcl-flow on npm" /></a>
+<br/>
+<sub><a href="https://nujexa.ai">NUJEXA AI — nujexa.ai</a> · <a href="https://nujexa.app">NUJEXA App — nujexa.app</a></sub>
 
 <br/><br/>
 
-<img src="./assets/products.svg?v=2" width="860" alt="Products: Awallet, PULSE, VORCL, AION" />
+<img src="./assets/products.svg?v=3" width="860" alt="Products: NUJEXA, Awallet, PULSE, VORCL, AION" />
 
 <br/><br/>
 
@@ -45,10 +48,10 @@ audited, refactored and shipped as well as greenfield builds.
 
 | | | |
 |---|---|---|
+| **[NUJEXA](https://nujexa.ai)** | Applied-AI research and engineering — designing, training, integrating, testing and deploying production AI systems for real business processes. | [nujexa.ai](https://nujexa.ai) · [nujexa.app](https://nujexa.app) |
 | **[Awallet](https://www.awallet.life/)** | A quiet AI personal-finance dashboard — wallets, budgets, savings goals, subscriptions, stocks, crypto and clear spending insights in one calm place. | `awallet.life` |
 | **[PULSE](https://www.mycom.fit/)** | A private fitness operating system that connects training, recovery, nutrition and body signals into one adaptive plan. | `mycom.fit` |
-| **[NUJEXA](https://nujexa.ai
-)** | Applied-AI research and engineering — designing, training, integrating, testing and deploying production AI systems for real business processes. | `vorcl.net` |
+| **[VORCL](https://vorcl.com)** | Applied-AI engineering — designing, training, integrating and deploying production systems. | `vorcl.com` |
 | **[AION](https://www.aion.work/)** | A personal AI companion built to unite every important area of your life in one place. | `aion.work` |
 
 ## Open source
@@ -72,5 +75,5 @@ And no "done" without proof — a test run, a `git status`, a screenshot or a li
 <div align="center">
 <br/>
 <sub><b>Open to collaborations and custom software projects — applied AI, agent infrastructure, fintech and mobile.</b></sub><br/>
-<sub><a href="https://vorcl.net">vorcl.net</a></sub>
+<sub><a href="https://vorcl.com">vorcl.com</a> · <a href="https://nujexa.ai">nujexa.ai</a> · <a href="https://nujexa.app">nujexa.app</a></sub>
 </div>
